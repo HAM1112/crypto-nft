@@ -22,9 +22,6 @@ body{
     font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #0b1426;
-
-    padding-bottom: 400px;
-
 }
 
 .navbar {
@@ -220,7 +217,7 @@ body{
     align-items: center;
     gap: 10px;
 }
-.main-third, .main-forth{
+.main-third, .main-forth, .main-six{
     padding: 100px 180px;
     text-align: center;
 }
@@ -228,7 +225,7 @@ body{
     position: relative;
 }
 
-.brand-header-right,.brand-header-left{
+.brand-header-right,.brand-header-left {
     position: absolute;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -287,5 +284,152 @@ body{
     justify-content: center;
     gap: 15px;
 }
+.panel-left{
+    position: absolute;
+    left: 0;
+}
+.main-six-nav-panel{
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+}
+#sales{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #1197f8;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 25px;
+}
 
+.main-six-nav-panel button, .display{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    width: 140px;
+    padding: 10px 0px;
+    background-color: #0f1c39;
+    color: #fff;
+}
+.seven-days, .four:focus , .nine:focus , .four:active , .nine:active ,.four:target{
+    background: linear-gradient(90deg, rgb(17, 153, 250) 0%, rgb(17, 208, 250) 100%);
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    width: fit-content;
+}
+.four{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.nine{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 
+}
+.display > div{
+    padding: 10px 20px;
+}
+
+ .main-six .collections{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+ }
+
+ .collections > div{
+    height: 460px;
+    width: 275px;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    border-radius: 25px;
+    text-align: left;
+    
+ }
+
+ .collections > div > img{
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    background-size: cover;
+}
+
+.creator{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.details{
+    border-radius: 0px 0px 25px 25px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.creator > img{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+}
+
+.verified{
+    position: absolute;
+    right: 10px;
+}
+
+.creator p{
+    font-size: small;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: "----";
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.buttons span{
+    padding-right: 20px;
+}
+
+.buttons button{
+    background-color: #e5f3fc;
+    color: hsl(204.98deg 95.43% 57.06%);
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.main-six > button{
+    margin-top: 50px;
+    color: #1198f9;
+    background-color: transparent;
+    border: 2px solid #1198f9;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.final{
+    padding: 10px;
+}
+
+.final-last{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.final-last span{
+    margin: 0px 15px;
+}
